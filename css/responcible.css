@@ -1,0 +1,53 @@
+@media screen and (max-width:800px) {
+    body {
+        background-color: black;
+    }
+
+    .b {
+        flex-direction: column;
+        overflow: scroll;
+    }
+
+    .navli {
+        padding-top: none;
+        padding-left    : none;
+        padding-right: none;
+        justify-content: center;
+        align-self: center;
+    }
+
+    nav {
+        height: 40vh;
+        align-items: center;
+        margin: none;
+
+    }
+
+    .basic {
+        margin: 3vh 0;
+    }
+
+    .mainbox {
+        flex-direction: column;
+    }
+
+    #myjourney {
+
+        flex-direction: column;
+    }
+
+    .lang {
+        margin: 3vh 0;
+
+    }
+
+    #projects {
+        background-color: white;
+        border-radius: 12px;
+
+    }
+
+    #contact a {
+        font-size: 12px;
+    }
+}
